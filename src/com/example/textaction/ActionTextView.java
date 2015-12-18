@@ -23,6 +23,7 @@ import android.widget.TextView;
 
 public class ActionTextView extends TextView {
 
+         ///ssssssssss
 	// You can declare the format by your need here
 	// like "#xxx "(note:there is a blank space at the end)
 	private static final Pattern tag = Pattern.compile("#(.*?) ");
