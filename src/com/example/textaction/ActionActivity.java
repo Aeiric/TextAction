@@ -22,15 +22,15 @@ public class ActionActivity extends Activity{
 		
 		ActionTextView textView=(ActionTextView) findViewById(R.id.myTextView);
 		
-		String source="@Aeiric #¹þ¹þ ´øÎÒÃÇÒ»Æð·É#¹þ¹þ ";
+		String source="@Aeiric #ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½#ï¿½ï¿½ï¿½ï¿½ ";
 		String action1="@Aeiric ";
-		String action2="#¹þ¹þ ";
+		String action2="#ï¿½ï¿½ï¿½ï¿½ ";
 		textView.setActionTextSpecialOne(source, action1,ModeAction.MODE_ATUSER,Color.parseColor("#00ffff"), new TextStringClickListener() {
 			
 			@Override
 			public void OnStringClick() {
 				// TODO Auto-generated method stub
-				Toast.makeText(ActionActivity.this, "actionone,ÏìÓ¦1", 1).show();
+				Toast.makeText(ActionActivity.this, "actionone,ï¿½ï¿½Ó¦1", 1).show();
 			}
 		});
 		textView.setActionTextSpecialOne(source, action2,ModeAction.MODE_TAG,Color.parseColor("#00ffff"), new TextStringClickListener() {
@@ -38,7 +38,8 @@ public class ActionActivity extends Activity{
 			@Override
 			public void OnStringClick() {
 				// TODO Auto-generated method stub
-				Toast.makeText(ActionActivity.this, "actiontwo£¬ÏìÓ¦2", 1).show();
+				Toast.makeText(ActionActivity.this, "actiontwoï¿½ï¿½ï¿½ï¿½Ó¦2", 1).show();
+				////hahahahahha
 			}
 		});
 	}
