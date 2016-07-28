@@ -40,6 +40,7 @@ public class ActionActivity extends Activity{
 				// TODO Auto-generated method stub
 				Toast.makeText(ActionActivity.this, "actiontwo����Ӧ2", 1).show();
 				////hahahahahha
+				//11111111111111111
 			}
 		});
 	}
