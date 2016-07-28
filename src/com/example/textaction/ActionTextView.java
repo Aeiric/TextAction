@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.TextView;
 
 /**
- * ×Ô¶¨ÒåTextView²¿·ÖÎÄ×Öµã»÷Ìø×ª custtom textview that you can set action by the format
+ * ï¿½Ô¶ï¿½ï¿½ï¿½TextViewï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½×ª custtom textview that you can set action by the format
  * you need
  * 
  * @author Aeiric 2015.05.14
@@ -63,18 +63,18 @@ public class ActionTextView extends TextView {
 	/**
 	 * 
 	 * @param source
-	 *            text×Ö·û´® the source text in the textview
+	 *            textï¿½Ö·ï¿½ the source text in the textview
 	 * @param actionStr
-	 *            ÒªÉèÖÃÌø×ªµÄ×Ö·û´® the action String you need to set
+	 *            Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½Ö·ï¿½ the action String you need to set
 	 * @param mode
-	 *            Ìø×ªÄ£Ê½£¨·ÖÁ½ÖÖ#ºÅµÄtag±êÇ©ModeAcrion.MODE_TAGÒÔ¼°@ÓÃ»§MODE_ATUSER£© the
-	 *            action mode £¨in this demo there are two diffrent types
+	 *            ï¿½ï¿½×ªÄ£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½#ï¿½Åµï¿½tagï¿½ï¿½Ç©ModeAcrion.MODE_TAGï¿½Ô¼ï¿½@ï¿½Ã»ï¿½MODE_ATUSERï¿½ï¿½ the
+	 *            action mode ï¿½ï¿½in this demo there are two diffrent types
 	 *            ,ModeAcrion.MODE_TAG replace "#xxx " and MODE_ATUSER replace
 	 *            "@xxx "
 	 * @param color
-	 *            ÉèÖÃÌø×ª×ÖÌåµÄÑÕÉ« the color of the action string you want set
+	 *            ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É« the color of the action string you want set
 	 * @param listener
-	 *            Ìø×ª¼àÌýÆ÷ the listener in which you can write your action code
+	 *            ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ the listener in which you can write your action code
 	 */
 	public void setActionTextSpecialOne(String source, String actionStr,
 			int mode, final int color, final TextStringClickListener listener) {
@@ -120,6 +120,7 @@ public class ActionTextView extends TextView {
 		}
 		setText(ss);
 		setMovementMethod(LinkMovementMethod.getInstance());
+		//33333333333
 
 	}
 
