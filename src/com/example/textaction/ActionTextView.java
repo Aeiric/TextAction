@@ -121,6 +121,7 @@ public class ActionTextView extends TextView {
 		setText(ss);
 		setMovementMethod(LinkMovementMethod.getInstance());
 		//33333333333
+		//44444444444
 
 	}
 
