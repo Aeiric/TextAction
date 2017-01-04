@@ -19,6 +19,7 @@ public class ActionActivity extends Activity{
 		
 		setContentView(R.layout.activity_action);
 		
+
 		
 		ActionTextView textView=(ActionTextView) findViewById(R.id.myTextView);
 		
@@ -75,3 +76,4 @@ public class ActionActivity extends Activity{
 //303030
 //313131
 //323232
+//333333
